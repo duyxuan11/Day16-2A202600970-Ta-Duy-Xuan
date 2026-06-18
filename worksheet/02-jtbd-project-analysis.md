@@ -9,7 +9,7 @@ companion-reference: Strategyn_JTBD_Playbook.pdf (giảng viên gửi kèm)
 
 # Lab 2 — JTBD Project Analysis / Dùng JTBD để soi lại dự án nhóm
 
-**Tên dự án / sản phẩm:** _______________  
+**Tên dự án / sản phẩm:** AI Trợ lý Tư vấn và Đặt phòng Khách sạn  
 
 > Đây là **file duy nhất** của Lab 2.  
 > File này đồng thời đóng vai trò:
@@ -92,17 +92,17 @@ Phần lớn dự án nhóm viết quá rộng ở bước này, rồi sau đó 
 
 ### Khoanh đúng 1 lát cắt theo 4 điểm
 
-- [ ] **1 nhóm người dùng chính**
-- [ ] **1 hoàn cảnh / tình huống rõ**
-- [ ] **1 job cốt lõi**
-- [ ] **1 workflow đủ cụ thể để vẽ ra được**
+- [x] **1 nhóm người dùng chính**
+- [x] **1 hoàn cảnh / tình huống rõ**
+- [x] **1 job cốt lõi**
+- [x] **1 workflow đủ cụ thể để vẽ ra được**
 
 ### Điền nhanh trước khi làm
 
-- **Dự án của nhóm tôi là:** ___________________________________
-- **Lát cắt tôi chọn để phân tích hôm nay là:** ___________________________________
+- **Dự án của nhóm tôi là:** AI trợ lý tư vấn và đặt phòng khách sạn — chat với AI để nhận gợi ý và đặt phòng trong cùng một luồng hội thoại
+- **Lát cắt tôi chọn để phân tích hôm nay là:** Người du lịch tự túc cần tìm và đặt phòng khách sạn ngắn ngày trong nước, thường vào dịp cuối tuần hoặc gấp
 - **Vì sao tôi chọn lát cắt này:**  
-  > ___________________________________
+  > Đây là nhóm người dùng lớn nhất và thường xuyên nhất — không đi qua tour, tự lên kế hoạch, và đang bị mất thời gian nhiều nhất ở bước tìm + so sánh options. Đây cũng là nơi AI có thể tạo giá trị rõ nhất nếu làm được "đặt xong giúp tôi", thay vì chỉ "tư vấn rồi để tôi tự đặt".
 
 ### Viết quá rộng vs viết sắc hơn
 
@@ -121,13 +121,13 @@ Phần lớn dự án nhóm viết quá rộng ở bước này, rồi sau đó 
 ### Tóm tắt dự án trong 3 dòng
 
 1. **Nhóm tôi đang nghĩ mình đang giải quyết vấn đề gì?**  
-   > ___________________________________
+   > Người du lịch tự túc mất quá nhiều thời gian tìm, so sánh và đặt phòng khách sạn vì phải chuyển qua lại giữa nhiều nền tảng (Booking.com, Agoda, Google Maps, review sites) trước khi ra quyết định.
 
 2. **Người dùng chính hiện nhóm đang nhắm tới là ai?**  
-   > ___________________________________
+   > Khách du lịch tự túc trong nước, 22–40 tuổi, đặt phòng cho cá nhân hoặc nhóm nhỏ (2–4 người), không qua tour/lữ hành, có thói quen tra cứu trên điện thoại.
 
 3. **Hiện tại người dùng đó đang giải quyết vấn đề này bằng cách nào?**  
-   > ___________________________________
+   > Kết hợp nhiều công cụ: vào Booking.com/Agoda để lọc theo giá và tiện nghi, đọc review trên Google Maps hoặc TripAdvisor, nhờ bạn bè gợi ý qua chat, hoặc hỏi ChatGPT nhưng sau đó vẫn phải tự vào platform để đặt.
 
 ---
 
@@ -139,21 +139,21 @@ Phần lớn dự án nhóm viết quá rộng ở bước này, rồi sau đó 
 ### Trả lời 4 câu ngắn
 
 1. **Ai đang gặp vấn đề này?**  
-   > ___________________________________
+   > Khách du lịch tự túc cá nhân/nhóm nhỏ, đặc biệt những người đặt phòng gấp (0–3 ngày trước chuyến đi) hoặc cần tìm phòng thoả mãn nhiều tiêu chí cùng lúc (vị trí, giá, tiện nghi, phong cách).
 
 2. **Vấn đề xuất hiện trong hoàn cảnh nào?**  
-   > ___________________________________
+   > Cuối tuần hoặc dịp lễ ngắn, người dùng có ý định đi nhưng chưa đặt phòng — mở Booking.com, thấy hàng trăm kết quả, đọc không xuể, so sánh mệt, cuối cùng chọn một cái "đủ được" chứ không phải "đúng nhất". Hoặc đi gấp và không có thời gian nghiên cứu kỹ.
 
 3. **Hiện tại họ đang dùng giải pháp thay thế nào?**  
-   > ___________________________________
+   > Booking.com/Agoda (tự lọc), Google Maps (xem review/vị trí), ChatGPT (hỏi gợi ý nhưng không đặt được), hỏi bạn bè qua mạng xã hội, hoặc nhờ travel agent (tốn phí và chậm).
 
 4. **Vì sao đây là thời điểm đáng giải?**  
-   > ___________________________________
+   > Du lịch nội địa Việt Nam phục hồi mạnh sau COVID, tỷ lệ người dùng di động tăng cao, LLM đã đủ mạnh để hiểu ngữ cảnh tự nhiên, và API đặt phòng (OTA) ngày càng mở. Đây là thời điểm "đặt phòng bằng chat" trở nên technically khả thi và người dùng đã quen với conversational AI qua ChatGPT.
 
 ### Tóm tắt market context trong 3-4 dòng
 
-> _______________________________________________  
-> _______________________________________________
+> Người du lịch tự túc Việt Nam đang gặp friction cao ở bước tìm và chọn phòng: quá nhiều options, interface lọc nghèo nàn, phải chuyển tab liên tục giữa booking platforms và review sites. Giải pháp hiện tại không giải được vấn đề cốt lõi — ChatGPT tư vấn được nhưng không đặt được, Booking.com đặt được nhưng tư vấn kém. Dư địa để một sản phẩm làm cả hai trong cùng một luồng là rõ.  
+> Thị trường du lịch nội địa đang tăng trưởng và người dùng đã sẵn sàng với conversational AI — timing phù hợp để thử.
 
 ---
 
@@ -174,9 +174,9 @@ Phần lớn dự án nhóm viết quá rộng ở bước này, rồi sau đó 
 
 ### Điền
 
-- **Job executor của dự án này là:** ___________________________________
+- **Job executor của dự án này là:** Khách đặt phòng tự túc — người trực tiếp ngồi tìm kiếm, so sánh, và bấm nút đặt phòng cho chuyến đi của mình hoặc nhóm nhỏ
 - **Vì sao tôi tin đây là người trực tiếp "thuê" giải pháp để làm job:**  
-  > ___________________________________
+  > Họ là người cầm điện thoại, mở app, nhập filter, đọc review, và quyết định đặt. Không có trung gian nào ra quyết định thay — khác với booking corporate (có admin/travel manager) hay booking tour (có tour operator). Đây là người trực tiếp chịu đựng friction và sẽ là người đầu tiên chuyển sang tool tốt hơn.
 
 ---
 
@@ -200,23 +200,23 @@ Phần lớn dự án nhóm viết quá rộng ở bước này, rồi sau đó 
 
 ### 3 tiêu chí tự kiểm
 
-- [ ] Nếu bỏ tool hiện tại đi, job này vẫn còn tồn tại
-- [ ] Trong câu không có tên sản phẩm, AI, chatbot, app, màn hình
-- [ ] Câu đang mô tả **điều user muốn hoàn thành**, không phải thứ product đang làm
+- [x] Nếu bỏ tool hiện tại đi, job này vẫn còn tồn tại
+- [x] Trong câu không có tên sản phẩm, AI, chatbot, app, màn hình
+- [x] Câu đang mô tả **điều user muốn hoàn thành**, không phải thứ product đang làm
 
 ### Bản nháp 1
 
 **Core JTBD bản nháp:**  
-> _______________________________________________
+> Tìm và xác nhận phòng khách sạn phù hợp nhất với nhu cầu chuyến đi trong thời gian ngắn nhất, mà không cần lướt qua hàng trăm lựa chọn
 
 ### Gạch bỏ từ solution nếu có
 
-- Các từ solution tôi đang lỡ nhét vào câu: _________________________________
+- Các từ solution tôi đang lỡ nhét vào câu: *(không có từ nào đề cập tool, app, hay AI — câu đã solution-free)*
 
 ### Bản chốt
 
 **Core JTBD cuối cùng:**  
-> _______________________________________________
+> Lựa chọn và xác nhận chỗ ở phù hợp với hành trình và ngân sách cụ thể, nhanh và tự tin, ngay khi có ý định đi
 
 ---
 
@@ -239,15 +239,15 @@ When [trigger], I want to [motivation], so I can [outcome].
 
 | # | Trigger / When | Motivation / I want to | Outcome / so I can | Điều story này cho thấy |
 |---|---|---|---|---|
-| JS1 | | | | |
-| JS2 | | | | |
-| JS3 | | | | |
+| JS1 | Khi tôi vừa quyết định đi Đà Nẵng cuối tuần này và chỉ còn 2 ngày để chuẩn bị | Nhanh chóng tìm được khách sạn view biển, gần trung tâm, dưới 800k/đêm mà không cần lọc tay hàng trăm kết quả | Chốt phòng trong 10 phút và tập trung vào việc khác | Friction cao nhất nằm ở bước lọc options — quá nhiều, quá chậm |
+| JS2 | Khi tôi đặt phòng cho nhóm 4 người với nhu cầu khác nhau (1 người cần giường đôi riêng, 2 người muốn bao gồm bữa sáng, tất cả cần gần điểm tham quan X) | Nhận ngay 2–3 gợi ý phù hợp với toàn bộ yêu cầu để tôi có thể forward cho cả nhóm xem | Không mất thêm vòng hỏi-đáp với nhóm và chốt nhanh | Job có nhiều ràng buộc đồng thời — tools hiện tại không handle tốt |
+| JS3 | Khi tôi đang ở Hội An và muốn ở lại thêm 1 đêm nhưng không biết phòng nào còn trống ngay hôm nay | Xác nhận ngay có phòng nào phù hợp và đặt được luôn mà không cần mở nhiều tab | Yên tâm nghỉ thêm mà không mất thời gian lên mạng tra trong lúc đang đi chơi | Pain ở bước execute khi user đang "on the go" — mobile friction rất cao |
 
 ### Tự kiểm nhanh
 
-- [ ] Mỗi story là một **tình huống thật**, không phải slogan chung chung
-- [ ] 3 story không trùng hệt nhau
-- [ ] Sau khi đọc 3 story, tôi hình dung được lúc nào product của mình đáng xuất hiện
+- [x] Mỗi story là một **tình huống thật**, không phải slogan chung chung
+- [x] 3 story không trùng hệt nhau
+- [x] Sau khi đọc 3 story, tôi hình dung được lúc nào product của mình đáng xuất hiện
 
 ---
 
@@ -268,14 +268,15 @@ Qua JTBD lens, đối thủ không chỉ là app cùng ngành.
 
 | Alternative hiện tại | User đang thuê nó để làm gì? | Nó làm tốt gì? | Nó fail ở đâu? | Switching cost hiện tại cao hay thấp? |
 |---|---|---|---|---|
-| Alt 1 | | | | |
-| Alt 2 | | | | |
-| Alt 3 | | | | |
+| Booking.com / Agoda | Tìm + lọc + đặt phòng trong một nơi | Lọc theo giá, loại phòng, tiện nghi; thanh toán an toàn; có review | Cần tự lọc tay qua hàng trăm kết quả; không hiểu ngữ cảnh chuyến đi; review dài và mệt để đọc | Thấp — user có thể chuyển app khác ngay, không mất gì |
+| ChatGPT / Claude | Hỏi gợi ý khách sạn theo nhu cầu tự nhiên | Hiểu ngữ cảnh tốt, trả lời nhanh, giải thích được lý do chọn | Không đặt được, thông tin có thể không còn chính xác (giá/availability), phải copy sang app khác để đặt | Thấp — chỉ là app chat, không có lock-in |
+| Hỏi bạn bè / group Facebook du lịch | Nhận gợi ý từ người đã trải nghiệm thật | Tin cậy cao, có context cụ thể, peer recommendation | Chậm (phải chờ phản hồi), không phải lúc nào cũng có người trả lời, không đặt được | Cao hơn — dựa trên network xã hội, khó thay bằng tool |
+| Travel agent / OTA agent | Để người khác lo toàn bộ | Không cần làm gì, được tư vấn tận tay | Tốn phí dịch vụ, chậm, không linh hoạt, không phù hợp với đặt phòng ngắn/gấp | Thấp nếu chỉ xét tiền, nhưng có switching friction về thói quen |
 
 ### Kết luận nhanh
 
 **Nếu project của tôi biến mất hôm nay, user nhiều khả năng sẽ quay về:**  
-> _______________________________________________
+> Kết hợp ChatGPT (để tư vấn) + Booking.com (để đặt) — đây là "workaround" hiện tại của hầu hết user. Switching cost rất thấp nên họ không cần sản phẩm của nhóm tốt hơn nhiều, nhưng phải làm được cả hai trong một luồng.
 
 ---
 
@@ -310,23 +311,23 @@ Mục tiêu là nhìn ra:
 
 | Step | Trong workflow này user đang cố làm gì? | Hôm nay họ đang dùng gì? | Friction / pain hiện tại | Mức đau |
 |---|---|---|---|---|
-| Define | | | | Low / Med / High |
-| Locate | | | | Low / Med / High |
-| Prepare | | | | Low / Med / High |
-| Confirm | | | | Low / Med / High |
-| Execute | | | | Low / Med / High |
-| Monitor | | | | Low / Med / High |
-| Modify | | | | Low / Med / High |
-| Conclude | | | | Low / Med / High |
+| Define | Xác định rõ mình cần loại phòng gì, ngân sách bao nhiêu, ở khu nào | Tự nghĩ trong đầu, không có tool hỗ trợ structuring requirements | Nhu cầu thường mơ hồ ("phòng đẹp, giá ổn"), dễ bị options trên platform kéo lệch | Med |
+| Locate | Tìm danh sách phòng/khách sạn phù hợp với tiêu chí đã có | Booking.com / Agoda filter, Google Search | Hàng trăm kết quả, filter kém linh hoạt, kết quả bị ảnh hưởng bởi quảng cáo/sponsored | **High** |
+| Prepare | Đọc thông tin chi tiết, so sánh ưu nhược điểm giữa các options | Đọc reviews trên nhiều site, xem ảnh, tra Google Maps vị trí | Phải chuyển tab liên tục, review dài và khó tổng hợp nhanh, mất 30–60 phút cho bước này | **High** |
+| Confirm | Kiểm tra còn phòng và giá chính xác cho ngày cụ thể | Check trực tiếp trên app, so sánh giá nhiều OTA | Giá có thể thay đổi, cần check nhiều trang để tìm giá tốt nhất | Med |
+| Execute | Điền thông tin, chọn phòng và thanh toán | Booking.com / Agoda checkout flow | Form dài, phải nhập lại thông tin nhiều lần nếu đặt theo nhóm | Med |
+| Monitor | Theo dõi xác nhận booking, nhận email/voucher | Email inbox, app notification | Thường ổn — ít friction ở bước này | Low |
+| Modify | Thay đổi ngày, hủy phòng nếu kế hoạch thay đổi | Liên hệ CS của OTA, vào trang quản lý booking | Chính sách hủy phòng khác nhau, phí hủy bất ngờ, cần đọc kỹ fine print khi đặt | Med |
+| Conclude | Check-in, đối chiếu phòng với kỳ vọng | N/A — tự làm khi đến nơi | Đôi khi phòng không đúng ảnh/mô tả — nhưng đây là vấn đề của OTA, không phải workflow tìm kiếm | Low |
 
 ### Chốt 2 bước đau nhất
 
-**Bước đau nhất #1:** _________________________________  
-**Bước đau nhất #2:** _________________________________
+**Bước đau nhất #1:** Prepare (đọc và so sánh thông tin giữa nhiều options)  
+**Bước đau nhất #2:** Locate (tìm ra danh sách candidates phù hợp từ hàng trăm kết quả)
 
 **Vì sao đây là nơi đáng chú ý nhất:**  
-> _______________________________________________  
-> _______________________________________________
+> Locate và Prepare cộng lại chiếm phần lớn thời gian của user — đây là nơi friction dồn nhất. Booking.com giải tốt bước Execute nhưng kém ở Locate/Prepare. ChatGPT giải khá bước Prepare nhưng không xong bước Execute. Đây là gap rõ nhất mà sản phẩm của nhóm có thể lấp.  
+> Quan trọng hơn: nếu AI giải được Locate + Prepare tốt, user sẵn sàng để AI xử lý tiếp cả Execute — đây là chuỗi tự nhiên dẫn đến "đặt xong giúp tôi".
 
 ---
 
@@ -345,16 +346,16 @@ Sau khi map workflow, mới hỏi:
 
 | Step | AI nên giúp bằng cách nào? | Vì sao AI hợp ở đây? | Rủi ro chính nếu dùng AI |
 |---|---|---|---|
-| 1 | | | |
-| 2 | | | |
+| Locate + Prepare | AI hiểu ngữ cảnh chuyến đi từ câu chat tự nhiên, lọc ra 3–5 gợi ý phù hợp kèm tóm tắt ưu nhược điểm ngắn gọn | LLM xử lý tốt multi-criteria filtering khi criteria được diễn đạt bằng ngôn ngữ thường (không cần filter form); tổng hợp review nhanh hơn người đọc thủ công | AI có thể bỏ sót tiêu chí ngầm của user; review tóm tắt có thể miss nuance quan trọng; data availability/price cần API real-time |
+| Execute | AI hoàn thành booking trực tiếp sau khi user chọn option — không cần user rời khỏi chat | Đây là điểm khác biệt duy nhất so với ChatGPT: AI không chỉ tư vấn mà kết thúc được job | Phải tích hợp API OTA (phức tạp, có thể không available); user lo về bảo mật thanh toán; lỗi booking gây trust issue nghiêm trọng |
 
 ### Kết luận nhanh
 
 **AI leverage point quan trọng nhất của dự án tôi là:**  
-> _______________________________________________
+> Bước Locate + Prepare — AI hiểu nhu cầu từ ngôn ngữ tự nhiên và trả về 3–5 gợi ý phù hợp với tóm tắt rõ ràng, thay vì để user tự lọc hàng trăm kết quả. Đây là nơi tạo được giá trị rõ nhất và tạo đà để user muốn AI xử lý tiếp cả bước Execute.
 
 **Vì sao không phải ở bước khác:**  
-> _______________________________________________
+> Bước Define (mơ hồ nhưng không đau đủ), Monitor/Conclude (ít friction, Booking.com đã xử lý tốt), Modify (cần can thiệp vào OTA backend). Bước Execute quan trọng nhưng chỉ có giá trị khi đã giải được Locate/Prepare trước — không ai muốn AI đặt phòng nếu gợi ý ban đầu không đúng.
 
 ---
 
@@ -373,13 +374,12 @@ vì [giá trị rõ nhất].
 
 ### Bản hypothesis của tôi
 
-> _______________________________________________  
-> _______________________________________________
+> Nếu chúng ta giúp khách đặt phòng tự túc lọc và chọn được khách sạn phù hợp nhất ở bước Locate + Prepare, bằng cách AI hiểu yêu cầu chuyến đi từ chat tự nhiên và trả về 3–5 gợi ý kèm tóm tắt rõ ràng — rồi đặt được luôn trong cùng luồng hội thoại — thì họ sẽ chuyển từ combo ChatGPT (tư vấn) + Booking.com (tự đặt) sang sản phẩm của nhóm, vì tiết kiệm được >50% thời gian so sánh và không cần chuyển tab.
 
 ### Tín hiệu sớm nếu hypothesis này đúng
 
-1. _______________________________________________
-2. _______________________________________________
+1. User hoàn thành booking trong cùng 1 session chat mà không cần mở thêm Booking.com hay ChatGPT
+2. User quay lại dùng sản phẩm cho lần đặt phòng tiếp theo mà không phải được nhắc — tức là tự nhiên chọn đây thay vì Booking.com trước
 
 ---
 
@@ -399,15 +399,15 @@ Job story chưa có research vẫn chỉ là **giả thuyết tốt hơn**, chư
 
 | Assumption | Vì sao assumption này rủi ro? | Tôi đang có bằng chứng gì? | Cần validate bằng cách nào tiếp theo? |
 |---|---|---|---|
-| A1 | | | |
-| A2 | | | |
-| A3 | | | |
-| A4 | | | |
-| A5 | | | |
+| A1: Người đặt phòng tự túc là đúng job executor | Có thể corporate traveler hoặc người đặt cho người khác có pain khác và nhiều hơn | Thấy nhiều user hỏi ChatGPT về khách sạn trong personal capacity; travel apps lớn nhất ở VN phục vụ self-serve | Phỏng vấn 5–10 người đã tự đặt phòng trong 3 tháng gần nhất; hỏi workflow thực tế |
+| A2: Locate + Prepare là điểm đau lớn nhất, đủ để đổi tool | User có thể đã quen với Booking.com và chấp nhận friction — switching cost có thể cao hơn tôi nghĩ | JS1, JS2 trong bài này; anecdotal từ bạn bè trong nhóm | Quan sát user thật đặt phòng (session recording hoặc think-aloud), đo thời gian thực tế ở từng bước |
+| A3: User sẽ tin và để AI đặt phòng thay mình (có liên quan đến thanh toán) | Người Việt có thể chưa tin AI xử lý thanh toán — trust rào cản cao với transaction liên quan tiền | Chưa có bằng chứng cụ thể — đây là assumption chưa được kiểm | Survey về mức độ sẵn sàng để AI xử lý booking; test với prototype "AI đề xuất, user bấm confirm" trước |
+| A4: AI tổng hợp review đủ tốt để user không cần đọc thêm | LLM có thể miss nuance, hallucinate thông tin khách sạn, hoặc data review không cập nhật | Chưa test cụ thể với travel data | A/B test: user đọc tóm tắt AI vs. tự đọc review → đo quyết định cuối có khác không |
+| A5: Tích hợp API đặt phòng từ OTA là khả thi với team hiện tại | Booking.com / Agoda API có thể không public hoặc tốn chi phí cao; tích hợp thanh toán phức tạp | Chưa research kỹ về OTA API access | Spike kỹ thuật: research API availability, thử affiliate/partner program của các OTA |
 
 ### Assumption nguy hiểm nhất nếu tôi đang sai
 
-> _______________________________________________
+> **A3 — User chưa sẵn sàng để AI xử lý booking thay mình.** Nếu user muốn tư vấn AI nhưng vẫn muốn tự bấm đặt, thì sản phẩm của nhóm sẽ không khác ChatGPT + Booking.com là mấy — và lý do chính để user chuyển sang biến mất. Toàn bộ product hypothesis dựa trên giả định user muốn AI "đặt xong giúp tôi", không chỉ "tư vấn rồi tôi tự đặt".
 
 ---
 
@@ -431,7 +431,7 @@ Job story chưa có research vẫn chỉ là **giả thuyết tốt hơn**, chư
 
 | Ý phản biện tôi nghe được | Nó chạm vào phần nào? | Tôi sẽ giữ / sửa gì? |
 |---|---|---|
-| | | |
+| *(Điền sau khi share trong bàn)* | | |
 | | | |
 | | | |
 
@@ -441,52 +441,52 @@ Job story chưa có research vẫn chỉ là **giả thuyết tốt hơn**, chư
 
 ### Sau khi nghe phản biện, tôi thay đổi gì?
 
-- [ ] Giữ nguyên `job executor`
+- [x] Giữ nguyên `job executor`
 - [ ] Sửa `job executor`
-- [ ] Giữ nguyên `core JTBD`
+- [x] Giữ nguyên `core JTBD`
 - [ ] Sửa `core JTBD`
-- [ ] Giữ nguyên `AI leverage point`
+- [x] Giữ nguyên `AI leverage point`
 - [ ] Sửa `AI leverage point`
-- [ ] Giữ nguyên `product hypothesis`
+- [x] Giữ nguyên `product hypothesis`
 - [ ] Sửa `product hypothesis`
 
 ### Vì sao tôi giữ / sửa?
 
-> _______________________________________________  
-> _______________________________________________
+> *(Điền sau khi share trong bàn — ghi cụ thể ý phản biện nào được nghe và tại sao giữ hoặc sửa)*  
+> Bản nộp này là version trước khi nghe phản biện — sẽ cập nhật sau khi share trong bàn.
 
 ### Version cuối cùng tôi nộp
 
 **Job executor:**  
-> _______________________________________________
+> Khách đặt phòng tự túc — người trực tiếp tìm kiếm, so sánh và xác nhận chỗ ở cho chuyến đi cá nhân hoặc nhóm nhỏ, không qua tour/agent
 
 **Core JTBD:**  
-> _______________________________________________
+> Lựa chọn và xác nhận chỗ ở phù hợp với hành trình và ngân sách cụ thể, nhanh và tự tin, ngay khi có ý định đi
 
 **2 bước đau nhất trong workflow:**  
-> _______________________________________________
+> Locate (lọc ra candidates phù hợp từ hàng trăm kết quả) và Prepare (đọc, so sánh thông tin giữa nhiều options để ra quyết định) — hai bước này cộng lại chiếm hầu hết thời gian và friction của user
 
 **AI leverage point chính:**  
-> _______________________________________________
+> Locate + Prepare: AI hiểu nhu cầu từ ngôn ngữ tự nhiên, lọc và tóm tắt 3–5 gợi ý phù hợp — tạo đà để user muốn AI xử lý tiếp cả bước Execute (đặt phòng) trong cùng một luồng
 
 **Product hypothesis:**  
-> _______________________________________________
+> Nếu AI giúp user lọc + chọn phòng từ chat tự nhiên và đặt được luôn trong cùng luồng, user sẽ chuyển từ combo ChatGPT + Booking.com sang sản phẩm của nhóm vì tiết kiệm >50% thời gian và không cần chuyển tab
 
 **Assumption cần validate đầu tiên:**  
-> _______________________________________________
+> User có sẵn sàng để AI đặt phòng thay mình không (A3) — nếu không, toàn bộ hypothesis sập; cần test bằng prototype "AI đề xuất, user bấm confirm" với user thật trước khi build full booking integration
 
 ---
 
 ## Checklist trước khi nộp
 
-- [ ] Tôi đã khoanh đúng 1 lát cắt cụ thể của dự án.
-- [ ] Tôi đã phân biệt được `job executor` với buyer / influencer.
-- [ ] `Core JTBD` của tôi không nhét solution vào câu.
-- [ ] Tôi đã viết đủ 3 `job stories`.
-- [ ] Tôi đã điền `JTBD lite map` và khoanh ra 2 bước đau nhất.
-- [ ] Tôi đã chỉ ra `AI leverage point` thay vì nhảy thẳng vào feature list.
-- [ ] Tôi đã ghi rõ `assumptions to validate`.
-- [ ] Tôi đã sửa version cuối sau khi share trong bàn.
+- [x] Tôi đã khoanh đúng 1 lát cắt cụ thể của dự án.
+- [x] Tôi đã phân biệt được `job executor` với buyer / influencer.
+- [x] `Core JTBD` của tôi không nhét solution vào câu.
+- [x] Tôi đã viết đủ 3 `job stories`.
+- [x] Tôi đã điền `JTBD lite map` và khoanh ra 2 bước đau nhất.
+- [x] Tôi đã chỉ ra `AI leverage point` thay vì nhảy thẳng vào feature list.
+- [x] Tôi đã ghi rõ `assumptions to validate`.
+- [ ] Tôi đã sửa version cuối sau khi share trong bàn. *(cần cập nhật sau khi share)*
 
 ---
 
